@@ -16,7 +16,7 @@ argparser.add_argument('-l', '--lastname', help='Last name (optional)')
 argparser.add_argument('-b', '--birthdate', help='Birth date (dd/mm/YYYY or dd/mm) (optional)')
 argparser.add_argument('-u', '--usernames', help='Known usernames of the target (comma separated) (optional)')
 argparser.add_argument('-m', '--mails', help='Put this flag if you desire to generate potential mails of the target instead of generating usernames. There will be a lot of them but can be compared with mails in data breaches (optional)', action="store_true")
-argparser.add_argument('-s', '--size', help='Amount of potential usernames generated (xxl, l, m or s) (default is "m"). "l" = Less date formats and no mixed separators. "m" = Without usernames that have 1 to 9 added at the end (potential secondary accouts). "s" = Without dates')
+argparser.add_argument('-s', '--size', help='Amount of potential usernames generated (xxl, l, m or s) (default is "m"). "l" = Less date formats and no mixed separators. "m" = Without usernames that have 1 to 9 added at the end (potential secondary accounts). "s" = Without dates')
 
 args = argparser.parse_args()
 fname = args.firstname
