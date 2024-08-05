@@ -24,7 +24,7 @@ There is 4 modes : XL, L, M and S. They all correspond to a certain level of var
 - S : Without dates **(~24)**
 
 > [!TIP]
-> Those tests were ran with the following command : `python username_generator.py -f jean -l doe -b '13/12/1998' -u 'nerumir,phaeryl' -s xl | wc -l`
+> Those tests were run with the following command : `python username_generator.py -f jean -l doe -b '13/12/1998' -u 'nerumir,phaeryl' -s xl | wc -l`
 
 Here the following `--help` output for the script :
 
