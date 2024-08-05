@@ -4,7 +4,7 @@ OSINT tool to generate potential usernames based on target informations
 > [!IMPORTANT]
 > This script only needs `argparse` to work and is part of the default Python librairy, so you shouldn't have Python package to install.
 
-This tool is use to generate potential usernames based on :
+This tool is used to generate potential usernames based on :
 
 - First name (supports compound names)
 - Last name
